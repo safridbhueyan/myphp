@@ -1,6 +1,10 @@
 
 <?php
 include("database.php");
+$sql="INSERT INTO user(username, password, email,date)
+      VALUES ('deathstroke','batman','dts@gmail.com','')";
+mysqli_query($conn,$sql);
+mysqli_close($conn);
 ?>
 
 <!DOCTYPE html>
