@@ -1,4 +1,8 @@
 
+<?php
+include("database.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +13,11 @@
 <body>
     <form  action="index.php"  method="post">
  
-        <lebel> username:</lebel>
+        <lebel> username:</lebel><br>
         <input type="text" name="username"><br>
-        <label> password:</label>
+        <label> password:</label><br>
         <input type="password" name="password"><br>
-        <label>confirm  password:</label>
+        <label>confirm  password:</label><br>
         <input type="password" name="cnpassword"><br>
         <input type="submit"  name="login" value="log in">
     </form>
